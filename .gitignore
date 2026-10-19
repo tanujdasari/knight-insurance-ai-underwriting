@@ -1,0 +1,31 @@
+.env
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.streamlit/secrets.toml
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+.venv/
+venv/
+
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local editor / OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local outputs and logs
+*.log
